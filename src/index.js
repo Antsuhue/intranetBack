@@ -5,9 +5,10 @@ const db = require("./config/database")
 require ("dotenv").config()
 
 const app = express();
-const PORT = 3000
+const PORT = 3300
 
 app.use(cors())
+app.use(express.static("../views"))
 app.db = db
 app.use(express.json())
 app.use(routes)

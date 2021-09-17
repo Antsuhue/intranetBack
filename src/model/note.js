@@ -24,9 +24,15 @@ const inNote = new mongoose.Schema({
     status: {
         type: String,
         require: true
+    },
+    created_at: {
+        type: String,
+        require: true
+    },
+    updated_at: {
+        type: String,
+        require: true
     }
-},{
-    timestamps: true
 })
 
 const InNote = mongoose.model("in_notes", inNote, "in_notes")

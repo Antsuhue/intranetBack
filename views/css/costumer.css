@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+
+#container{
+    border: 1px solid;
+    width: 100vh;
+    height: 70vh;
+}
+
+#content{
+
+}
+
+#header{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+#footer{
+    display: flex;
+    position: sticky;
+    width: 100%;
+
+    background-color: springgreen;
+}
+
+#logo{
+    display: flex;
+    align-self: center;
+    width: 70px;
+}
