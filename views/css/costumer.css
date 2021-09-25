@@ -4,8 +4,8 @@ h1{
 
 #container{
     border: 1px solid;
-    width: 100vh;
-    height: 70vh;
+    width: 50vh;
+    height: 50vh;
 }
 
 #content{
@@ -22,7 +22,6 @@ h1{
     display: flex;
     position: sticky;
     width: 100%;
-
     background-color: springgreen;
 }
 
